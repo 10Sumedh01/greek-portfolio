@@ -1,42 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sumedh Wature - Full Stack Developer</title>
-    
+
     <!-- Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Caesar+Dressing&family=Courier+Prime:wght@400;700&family=Montserrat:wght@300;400;500;600;700;900&display=swap" rel="stylesheet">
-    
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caesar+Dressing&family=Courier+Prime:wght@400;700&family=Montserrat:wght@300;400;500;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+
     <!-- Icons -->
-    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css" rel="stylesheet">
-    
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+
     <!-- Locomotive Scroll -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
-    
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css"
+    />
+
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
     <!-- Custom Cursor -->
     <div id="cursor"></div>
     <div id="cursor-follower"></div>
-    
+
     <!-- Loader -->
     <div id="loader">
-        <div class="loader-content">
-            <h1 class="loader-text">0%</h1>
-            <div class="loader-bar">
-                <div class="loader-progress"></div>
-            </div>
+      <div class="loader-content">
+        <h1 class="loader-text">0%</h1>
+        <div class="loader-bar">
+          <div class="loader-progress"></div>
         </div>
+      </div>
     </div>
 
     <!-- Main Container -->
     <div id="main" class="smooth-scroll">
-        
-        <!-- Navigation -->
-        <!-- <nav id="navbar">
+      <!-- Navigation -->
+      <!-- <nav id="navbar">
             <div class="nav-logo">
                 <a href="#home" class="logo-text">SW</a>
             </div>
@@ -53,443 +61,488 @@
                 <span></span>
             </div>
         </nav> -->
-<nav id="navbar">
-  <div class="container nav-container">
-    <a href="#" class="nav-logo">Sumedh<span>Wature</span></a>
-    <ul class="nav-links">
-      <li><a class="nav-link" href="#main">Home</a></li>
-      <li><a class="nav-link" href="#about">About</a></li>
-      <li><a class="nav-link" href="#skills">Skills</a></li>
-      <li><a class="nav-link" href="#projects">Projects</a></li>
-      <li><a class="nav-link" href="#contact">Contact</a></li>
-    </ul>
-    <div class="nav-toggle" id="nav-toggle">
-      <span></span>
-      <span></span>
-      <span></span>
-    </div>
-  </div>
-</nav>
+      <nav id="navbar">
+        <div class="container nav-container">
+          <a href="#" class="nav-logo">Sumedh<span>Wature</span></a>
+          <ul class="nav-links">
+            <li><a class="nav-link" href="#main">Home</a></li>
+            <li><a class="nav-link" href="#about">About</a></li>
+            <li><a class="nav-link" href="#skills">Skills</a></li>
+            <li><a class="nav-link" href="#projects">Projects</a></li>
+            <li><a class="nav-link" href="#contact">Contact</a></li>
+          </ul>
+          <div class="nav-toggle" id="nav-toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+      </nav>
 
-        <!-- Hero Section -->
-        <section id="home" class="hero-section">
-            <div class="hero-content">
-                <div class="hero-text">
-                    <h1 class="hero-name">
-                        <span class="name-line">Sumedh</span>
-                        <span class="name-line">Wature</span>
-                    </h1>
-                    <div class="hero-roles section-title">
-                        <span class="role active ">Full Stack Developer</span>
-                        <span class="role">Python Developer</span>
-                        <span class="role">Web Designer</span>
-                        <span class="role">Problem Solver</span>
-                    </div>
-                    <p class="hero-description">
-                        Entry-level web developer with hands-on experience in Django, Python, and full-stack development. 
-                        Passionate about creating scalable web applications and innovative digital experiences.
-                    </p>
-                </div>
-                <div class="hero-cta">
-                    <a href="#projects" class="cta-button primary">View My Work</a>
-                    <a href="#contact" class="cta-button secondary">Get In Touch</a>
-                </div>
+      <!-- Hero Section -->
+      <section id="home" class="hero-section">
+        <div class="hero-content">
+          <div class="hero-text">
+            <h1 class="hero-name">
+              <span class="name-line">Sumedh</span>
+              <span class="name-line">Wature</span>
+            </h1>
+            <div class="hero-roles hero-roles-text">
+              <span class="role active">Full Stack Developer</span>
+              <span class="role">Python Developer</span>
+              <span class="role">Web Designer</span>
+              <span class="role">Problem Solver</span>
             </div>
-            <div class="scroll-indicator">
-                <span class="scroll-text">Scroll to explore</span>
-                <div class="scroll-arrow">
-                    <i class="ri-arrow-down-line"></i>
-                </div>
-            </div>
-        </section>
+            <p class="hero-description">
+              Full-stack developer crafting scalable web solutions with Django
+              and Python. I transform complex problems into elegant digital
+              experiences, building applications that bridge the gap between
+              innovative ideas and real-world impact.
+              <!-- Passionate about creating scalable web applications and innovative digital experiences. -->
+            </p>
+          </div>
+          <div class="hero-cta">
+            <a href="#projects" class="cta-button primary">View My Work</a>
+            <a href="#contact" class="cta-button secondary">Get In Touch</a>
+          </div>
+        </div>
+        <div class="scroll-indicator">
+          <span class="scroll-text">Scroll to explore</span>
+          <div class="scroll-arrow">
+            <i class="ri-arrow-down-line"></i>
+          </div>
+        </div>
+      </section>
 
-        <!-- About Section -->
-        <section id="about" class="about-section">
-            <div class="container">
-                <div class="section-header">
-                    <h2 class="section-title">About Me</h2>
-                    <p class="section-subtitle">Passionate developer crafting digital experiences</p>
-                </div>
-                
-                <div class="about-content">
-                    <div class="about-text">
-                        <div class="about-intro">
-                            <h3>Hello! I'm Sumedh</h3>
-                            <p>
-                                I'm a passionate full-stack developer currently pursuing B.Sc. Information Technology 
-                                with a CGPA of 9.32/10. I specialize in building scalable web applications using 
-                                modern technologies like Django, React, and Python.
-                            </p>
-                            <p>
-                                My journey in web development has led me to create innovative projects including 
-                                authentication services and learning management systems. I believe in writing 
-                                clean, efficient code and creating user-centric digital experiences.
-                            </p>
-                        </div>
-                        
-                        <div class="about-details">
-                            <div class="detail-item">
-                                <h4>Education</h4>
-                                <p>B.Sc. Information Technology<br>
-                                Dr. B.R. Ambedkar College of Science and Arts<br>
-                                CGPA: 9.32/10 (2022-2025)</p>
-                            </div>
-                            <div class="detail-item">
-                                <h4>Languages</h4>
-                                <p>English, Hindi, Marathi</p>
-                            </div>
-                            <div class="detail-item">
-                                <h4>Interests</h4>
-                                <p>Reading literature, Playing guitar, Writing blogs & journals</p>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="about-visual">
-                        <div class="profile-card">
-                            <div class="profile-image">
-                                <div class="image-placeholder">
-                                    <i class="ri-user-line"></i>
-                                </div>
-                            </div>
-                            <div class="profile-stats">
-                                <div class="stat-item">
-                                    <span class="stat-number" data-count="2">0</span>
-                                    <span class="stat-label">Projects</span>
-                                </div>
-                                <div class="stat-item">
-                                    <span class="stat-number" data-count="8">0</span>
-                                    <span class="stat-label">Technologies</span>
-                                </div>
-                                <div class="stat-item">
-                                    <span class="stat-number" data-count="932">0</span>
-                                    <span class="stat-label">CGPA x100</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+      <!-- About Section -->
+      <section id="about" class="about-section">
+        <div class="container">
+          <div class="section-header">
+            <h2 class="section-title">About Me</h2>
+            <p class="section-subtitle">
+              Passionate developer crafting digital experiences
+            </p>
+          </div>
 
-        <!-- Skills Section -->
-        <section id="skills" class="skills-section">
-            <div class="container">
-                <div class="section-header">
-                    <h2 class="section-title">Technical Skills</h2>
-                    <p class="section-subtitle">Technologies I work with</p>
-                </div>
-                
-                <div class="skills-content">
-                    <div class="skill-category">
-                        <h3>Programming Languages</h3>
-                        <div class="skills-grid">
-                            <div class="skill-item">
-                                <div class="skill-icon">🐍</div>
-                                <span class="skill-name">Python</span>
-                                <div class="skill-bar">
-                                    <div class="skill-progress" data-width="90"></div>
-                                </div>
-                            </div>
-                            <div class="skill-item">
-                                <div class="skill-icon">📜</div>
-                                <span class="skill-name">JavaScript</span>
-                                <div class="skill-bar">
-                                    <div class="skill-progress" data-width="85"></div>
-                                </div>
-                            </div>
-                            <div class="skill-item">
-                                <div class="skill-icon">🔷</div>
-                                <span class="skill-name">TypeScript</span>
-                                <div class="skill-bar">
-                                    <div class="skill-progress" data-width="75"></div>
-                                </div>
-                            </div>
-                            <div class="skill-item">
-                                <div class="skill-icon">⚡</div>
-                                <span class="skill-name">C/C++</span>
-                                <div class="skill-bar">
-                                    <div class="skill-progress" data-width="70"></div>
-                                </div>
-                            </div>
-                            <div class="skill-item">
-                                <div class="skill-icon">🦀</div>
-                                <span class="skill-name">Rust</span>
-                                <div class="skill-bar">
-                                    <div class="skill-progress" data-width="60"></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="skill-category">
-                        <h3>Web Frameworks</h3>
-                        <div class="skills-grid">
-                            <div class="skill-item">
-                                <div class="skill-icon">🎯</div>
-                                <span class="skill-name">Django</span>
-                                <div class="skill-bar">
-                                    <div class="skill-progress" data-width="90"></div>
-                                </div>
-                            </div>
-                            <div class="skill-item">
-                                <div class="skill-icon">⚛️</div>
-                                <span class="skill-name">React.js</span>
-                                <div class="skill-bar">
-                                    <div class="skill-progress" data-width="80"></div>
-                                </div>
-                            </div>
-                            <div class="skill-item">
-                                <div class="skill-icon">🔺</div>
-                                <span class="skill-name">Next.js</span>
-                                <div class="skill-bar">
-                                    <div class="skill-progress" data-width="75"></div>
-                                </div>
-                            </div>
-                            <div class="skill-item">
-                                <div class="skill-icon">💚</div>
-                                <span class="skill-name">Node.js</span>
-                                <div class="skill-bar">
-                                    <div class="skill-progress" data-width="70"></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="skill-category">
-                        <h3>Databases & Tools</h3>
-                        <div class="skills-grid">
-                            <div class="skill-item">
-                                <div class="skill-icon">🐘</div>
-                                <span class="skill-name">PostgreSQL</span>
-                                <div class="skill-bar">
-                                    <div class="skill-progress" data-width="85"></div>
-                                </div>
-                            </div>
-                            <div class="skill-item">
-                                <div class="skill-icon">🍃</div>
-                                <span class="skill-name">MongoDB</span>
-                                <div class="skill-bar">
-                                    <div class="skill-progress" data-width="75"></div>
-                                </div>
-                            </div>
-                            <div class="skill-item">
-                                <div class="skill-icon">🔴</div>
-                                <span class="skill-name">Redis</span>
-                                <div class="skill-bar">
-                                    <div class="skill-progress" data-width="80"></div>
-                                </div>
-                            </div>
-                            <div class="skill-item">
-                                <div class="skill-icon">🐬</div>
-                                <span class="skill-name">MySQL</span>
-                                <div class="skill-bar">
-                                    <div class="skill-progress" data-width="75"></div>
-                                </div>
-                            </div>
-                            <div class="skill-item">
-                                <div class="skill-icon">🌿</div>
-                                <span class="skill-name">Git</span>
-                                <div class="skill-bar">
-                                    <div class="skill-progress" data-width="85"></div>
-                                </div>
-                            </div>
-                            <div class="skill-item">
-                                <div class="skill-icon">🐧</div>
-                                <span class="skill-name">Linux</span>
-                                <div class="skill-bar">
-                                    <div class="skill-progress" data-width="80"></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+          <div class="about-content">
+            <div class="about-text">
+              <div class="about-intro">
+                <h3>Hello! I'm Sumedh</h3>
+                <p>
+                  
+                  Full-stack developer and B.Sc.
+                  IT graduate specializing in Django, React, and Python. I
+                  transform complex problems into elegant digital solutions,
+                  building scalable web applications that bridge innovative
+                  concepts with real-world impact
+                </p>
+                <p>
+                  My journey in web development has led me to create innovative
+                  projects including authentication services and learning
+                  management systems. I believe in writing clean, efficient code
+                  and creating user-centric digital experiences.
+                </p>
+              </div>
 
-        <!-- Projects Section -->
-        <section id="projects" class="projects-section">
-            <div class="container">
-                <div class="section-header">
-                    <h2 class="section-title">Featured Projects</h2>
-                    <p class="section-subtitle">Some of my recent work</p>
+              <div class="about-details">
+                <div class="detail-item">
+                  <h4>Education</h4>
+                  <p>
+                    B.Sc. Information Technology<br />
+                    Dr. B.R. Ambedkar College of Science and Arts<br />
+                    CGPA: 9.32/10 (2022-2025)
+                  </p>
                 </div>
-                
-                <div class="projects-grid">
-                    <div class="project-card">
-                        <div class="project-image">
-                            <div class="project-overlay">
-                                <div class="project-links">
-                                    <a href="https://github.com/10Sumedh01/auth_service" target="_blank" class="project-link">
-                                        <i class="ri-github-line"></i>
-                                    </a>
-                                    <a href="#" class="project-link">
-                                        <i class="ri-external-link-line"></i>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="project-content">
-                            <h3 class="project-title">Custom Authentication Service</h3>
-                            <p class="project-description">
-                                Built a scalable authentication service in Django with Redis caching for improved performance. 
-                                Designed for easy integration with any web framework through standardized APIs.
-                            </p>
-                            <div class="project-tech">
-                                <span class="tech-tag">Django</span>
-                                <span class="tech-tag">Redis</span>
-                                <span class="tech-tag">Python</span>
-                                <span class="tech-tag">REST API</span>
-                            </div>
-                            <div class="project-features">
-                                <ul>
-                                    <li>Multi-branch development strategy</li>
-                                    <li>Microservices architecture</li>
-                                    <li>CLI tool for automated deployment</li>
-                                    <li>Caching strategies implementation</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="project-card">
-                        <div class="project-image">
-                            <div class="project-overlay">
-                                <div class="project-links">
-                                    <a href="https://github.com/10Sumedh01/Course-management" target="_blank" class="project-link">
-                                        <i class="ri-github-line"></i>
-                                    </a>
-                                    <a href="https://online-learning-management-system-1.onrender.com" target="_blank" class="project-link">
-                                        <i class="ri-external-link-line"></i>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="project-content">
-                            <h3 class="project-title">Online Learning Management System</h3>
-                            <p class="project-description">
-                                Comprehensive course and student management platform serving administrators, teachers, and students. 
-                                Features course management, assignments, and real-time quiz competitions.
-                            </p>
-                            <div class="project-tech">
-                                <span class="tech-tag">Django</span>
-                                <span class="tech-tag">Python</span>
-                                <span class="tech-tag">Database Management</span>
-                                <span class="tech-tag">Cloud Deployment</span>
-                            </div>
-                            <div class="project-features">
-                                <ul>
-                                    <li>Multi-role authentication system</li>
-                                    <li>Real-time scoring system</li>
-                                    <li>Discussion forums</li>
-                                    <li>Production-ready deployment</li>
-                                </ul>
-                            </div>
-                            <div class="project-demo">
-                                <p><strong>Demo Access:</strong></p>
-                                <p>Student: ID: 12345, Pass: sumedh</p>
-                                <p>Faculty: ID: 200, Pass: anita</p>
-                            </div>
-                        </div>
-                    </div>
+                <div class="detail-item">
+                  <h4>Languages</h4>
+                  <p>English, Hindi, Marathi</p>
                 </div>
+                <div class="detail-item">
+                  <h4>Interests</h4>
+                  <p>
+                    Reading literature, Playing guitar, Writing blogs & journals
+                  </p>
+                </div>
+              </div>
             </div>
-        </section>
 
-        <!-- Contact Section -->
-        <section id="contact" class="contact-section">
-            <div class="container">
-                <div class="section-header">
-                    <h2 class="section-title">Get In Touch</h2>
-                    <p class="section-subtitle">Let's work together on your next project</p>
+            <div class="about-visual">
+              <div class="profile-card">
+                <div class="profile-image">
+                  <div class="image-placeholder">
+                    <i class="ri-user-line"></i>
+                  </div>
                 </div>
-                
-                <div class="contact-content">
-                    <div class="contact-info">
-                        <div class="contact-item">
-                            <div class="contact-icon">
-                                <i class="ri-mail-line"></i>
-                            </div>
-                            <div class="contact-details">
-                                <h4>Email</h4>
-                                <a href="mailto:sumedhwature2001@gmail.com">sumedhwature2001@gmail.com</a>
-                            </div>
-                        </div>
-                        
-                        <div class="contact-item">
-                            <div class="contact-icon">
-                                <i class="ri-phone-line"></i>
-                            </div>
-                            <div class="contact-details">
-                                <h4>Phone</h4>
-                                <a href="tel:+918828067358">+91 8828067358</a>
-                            </div>
-                        </div>
-                        
-                        <div class="contact-item">
-                            <div class="contact-icon">
-                                <i class="ri-map-pin-line"></i>
-                            </div>
-                            <div class="contact-details">
-                                <h4>Location</h4>
-                                <p>Vasai East, Maharashtra, India</p>
-                            </div>
-                        </div>
-                        
-                        <div class="social-links">
-                            <a href="https://github.com/10Sumedh01" target="_blank" class="social-link">
-                                <i class="ri-github-line"></i>
-                            </a>
-                            <a href="#" target="_blank" class="social-link">
-                                <i class="ri-linkedin-line"></i>
-                            </a>
-                            <a href="#" target="_blank" class="social-link">
-                                <i class="ri-twitter-line"></i>
-                            </a>
-                        </div>
-                    </div>
-                    
-                    <div class="contact-form">
-                        <form id="contactForm" action="mailto:sumedhwature2001@gmail.com" method="POST" enctype="text/plain">
-                            <div class="form-group">
-                                <input type="text" id="name" name="name" required>
-                                <label for="name">Your Name</label>
-                            </div>
-                            
-                            <div class="form-group">
-                                <input type="email" id="email" name="email" required>
-                                <label for="email">Your Email</label>
-                            </div>
-                            
-                            <div class="form-group">
-                                <input type="text" id="subject" name="subject" required>
-                                <label for="subject">Subject</label>
-                            </div>
-                            
-                            <div class="form-group">
-                                <textarea id="message" name="message" rows="5" required></textarea>
-                                <label for="message">Your Message</label>
-                            </div>
-                            
-                            <button type="submit" class="submit-btn">
-                                <span class="btn-text">Send Message</span>
-                                <i class="ri-send-plane-line"></i>
-                            </button>
-                        </form>
-                    </div>
+                <div class="profile-stats">
+                  <div class="stat-item">
+                    <span class="stat-number" data-count="8+">0</span>
+                    <span class="stat-label">Projects</span>
+                  </div>
+                  <div class="stat-item">
+                    <span class="stat-number" data-count="8">0</span>
+                    <span class="stat-label">Technologies</span>
+                  </div>
+                  <div class="stat-item">
+                    <span class="stat-number" data-count="9.3">0</span>
+                    <span class="stat-label">CGPA x100</span>
+                  </div>
                 </div>
+              </div>
             </div>
-        </section>
+          </div>
+        </div>
+      </section>
 
-        <!-- Footer -->
-        <footer class="footer">
-            <div class="container">
-                <div class="footer-content">
-                    <p>&copy; 2025 Sumedh Wature. All rights reserved.</p>
-                    <p>Built with passion using GSAP and modern web technologies.</p>
+      <!-- Skills Section -->
+      <section id="skills" class="skills-section">
+        <div class="container">
+          <div class="section-header">
+            <h2 class="section-title">Technical Skills</h2>
+            <p class="section-subtitle">Technologies I work with</p>
+          </div>
+
+          <div class="skills-content">
+            <div class="skill-category">
+              <h3>Programming Languages</h3>
+              <div class="skills-grid">
+                <div class="skill-item">
+                  <div class="skill-icon">🐍</div>
+                  <span class="skill-name">Python</span>
+                  <div class="skill-bar">
+                    <div class="skill-progress" data-width="90"></div>
+                  </div>
                 </div>
+                <div class="skill-item">
+                  <div class="skill-icon">📜</div>
+                  <span class="skill-name">JavaScript</span>
+                  <div class="skill-bar">
+                    <div class="skill-progress" data-width="85"></div>
+                  </div>
+                </div>
+                <div class="skill-item">
+                  <div class="skill-icon">🔷</div>
+                  <span class="skill-name">TypeScript</span>
+                  <div class="skill-bar">
+                    <div class="skill-progress" data-width="75"></div>
+                  </div>
+                </div>
+                <div class="skill-item">
+                  <div class="skill-icon">⚡</div>
+                  <span class="skill-name">C/C++</span>
+                  <div class="skill-bar">
+                    <div class="skill-progress" data-width="70"></div>
+                  </div>
+                </div>
+                <div class="skill-item">
+                  <div class="skill-icon">🦀</div>
+                  <span class="skill-name">Rust</span>
+                  <div class="skill-bar">
+                    <div class="skill-progress" data-width="60"></div>
+                  </div>
+                </div>
+              </div>
             </div>
-        </footer>
+
+            <div class="skill-category">
+              <h3>Web Frameworks</h3>
+              <div class="skills-grid">
+                <div class="skill-item">
+                  <div class="skill-icon">🎯</div>
+                  <span class="skill-name">Django</span>
+                  <div class="skill-bar">
+                    <div class="skill-progress" data-width="90"></div>
+                  </div>
+                </div>
+                <div class="skill-item">
+                  <div class="skill-icon">⚛️</div>
+                  <span class="skill-name">React.js</span>
+                  <div class="skill-bar">
+                    <div class="skill-progress" data-width="80"></div>
+                  </div>
+                </div>
+                <div class="skill-item">
+                  <div class="skill-icon">🔺</div>
+                  <span class="skill-name">Next.js</span>
+                  <div class="skill-bar">
+                    <div class="skill-progress" data-width="75"></div>
+                  </div>
+                </div>
+                <div class="skill-item">
+                  <div class="skill-icon">💚</div>
+                  <span class="skill-name">Node.js</span>
+                  <div class="skill-bar">
+                    <div class="skill-progress" data-width="70"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="skill-category">
+              <h3>Databases & Tools</h3>
+              <div class="skills-grid">
+                <div class="skill-item">
+                  <div class="skill-icon">🐘</div>
+                  <span class="skill-name">PostgreSQL</span>
+                  <div class="skill-bar">
+                    <div class="skill-progress" data-width="85"></div>
+                  </div>
+                </div>
+                <div class="skill-item">
+                  <div class="skill-icon">🍃</div>
+                  <span class="skill-name">MongoDB</span>
+                  <div class="skill-bar">
+                    <div class="skill-progress" data-width="75"></div>
+                  </div>
+                </div>
+                <div class="skill-item">
+                  <div class="skill-icon">🔴</div>
+                  <span class="skill-name">Redis</span>
+                  <div class="skill-bar">
+                    <div class="skill-progress" data-width="80"></div>
+                  </div>
+                </div>
+                <div class="skill-item">
+                  <div class="skill-icon">🐬</div>
+                  <span class="skill-name">MySQL</span>
+                  <div class="skill-bar">
+                    <div class="skill-progress" data-width="75"></div>
+                  </div>
+                </div>
+                <div class="skill-item">
+                  <div class="skill-icon">🌿</div>
+                  <span class="skill-name">Git</span>
+                  <div class="skill-bar">
+                    <div class="skill-progress" data-width="85"></div>
+                  </div>
+                </div>
+                <div class="skill-item">
+                  <div class="skill-icon">🐧</div>
+                  <span class="skill-name">Linux</span>
+                  <div class="skill-bar">
+                    <div class="skill-progress" data-width="80"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Projects Section -->
+      <section id="projects" class="projects-section">
+        <div class="container">
+          <div class="section-header">
+            <h2 class="section-title">Featured Projects</h2>
+            <p class="section-subtitle">Some of my recent work</p>
+          </div>
+
+          <div class="projects-grid">
+            <div class="project-card">
+              <div class="project-image">
+                <div class="project-overlay">
+                  <div class="project-links">
+                    <a
+                      href="https://github.com/10Sumedh01/auth_service"
+                      target="_blank"
+                      class="project-link"
+                    >
+                      <i class="ri-github-line"></i>
+                    </a>
+                    <a href="#" class="project-link">
+                      <i class="ri-external-link-line"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="project-content">
+                <h3 class="project-title">Custom Authentication Service</h3>
+                <p class="project-description">
+                  Built a scalable authentication service in Django with Redis
+                  caching for improved performance. Designed for easy
+                  integration with any web framework through standardized APIs.
+                </p>
+                <div class="project-tech">
+                  <span class="tech-tag">Django</span>
+                  <span class="tech-tag">Redis</span>
+                  <span class="tech-tag">Python</span>
+                  <span class="tech-tag">REST API</span>
+                </div>
+                <div class="project-features">
+                  <ul>
+                    <li>Multi-branch development strategy</li>
+                    <li>Microservices architecture</li>
+                    <li>CLI tool for automated deployment</li>
+                    <li>Caching strategies implementation</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <!-- <div class="project-card">
+              <div class="project-image">
+                <div class="project-overlay">
+                  <div class="project-links">
+                    <a
+                      href="https://github.com/10Sumedh01/Course-management"
+                      target="_blank"
+                      class="project-link"
+                    >
+                      <i class="ri-github-line"></i>
+                    </a>
+                    <a
+                      href="https://online-learning-management-system-1.onrender.com"
+                      target="_blank"
+                      class="project-link"
+                    >
+                      <i class="ri-external-link-line"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="project-content">
+                <h3 class="project-title">Online Learning Management System</h3>
+                <p class="project-description">
+                  Comprehensive course and student management platform serving
+                  administrators, teachers, and students. Features course
+                  management, assignments, and real-time quiz competitions.
+                </p>
+                <div class="project-tech">
+                  <span class="tech-tag">Django</span>
+                  <span class="tech-tag">Python</span>
+                  <span class="tech-tag">Database Management</span>
+                  <span class="tech-tag">Cloud Deployment</span>
+                </div>
+                <div class="project-features">
+                  <ul>
+                    <li>Multi-role authentication system</li>
+                    <li>Real-time scoring system</li>
+                    <li>Discussion forums</li>
+                    <li>Production-ready deployment</li>
+                  </ul>
+                </div>
+                <div class="project-demo">
+                  <p><strong>Demo Access:</strong></p>
+                  <p>Student-ID: 12345, Password: sumedh</p>
+                  <p>Faculty-ID: 200, Password: anita</p>
+                </div>
+              </div>
+            </div> -->
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact Section -->
+      <section id="contact" class="contact-section">
+        <div class="container">
+          <div class="section-header">
+            <h2 class="section-title">Get In Touch</h2>
+            <p class="section-subtitle">
+              Let's work together on your next project
+            </p>
+          </div>
+
+          <div class="contact-content">
+            <div class="contact-info">
+              <div class="contact-item">
+                <div class="contact-icon">
+                  <i class="ri-mail-line"></i>
+                </div>
+                <div class="contact-details">
+                  <h4>Email</h4>
+                  <a href="mailto:sumedhwature2001@gmail.com"
+                    >sumedhwature2001@gmail.com</a
+                  >
+                </div>
+              </div>
+
+              <div class="contact-item">
+                <div class="contact-icon">
+                  <i class="ri-phone-line"></i>
+                </div>
+                <div class="contact-details">
+                  <h4>Phone</h4>
+                  <a href="tel:+918828067358">+91 8828067358</a>
+                </div>
+              </div>
+
+              <div class="contact-item">
+                <div class="contact-icon">
+                  <i class="ri-map-pin-line"></i>
+                </div>
+                <div class="contact-details">
+                  <h4>Location</h4>
+                  <p>Vasai East, Maharashtra, India</p>
+                </div>
+              </div>
+
+              <div class="social-links">
+                <a
+                  href="https://github.com/10Sumedh01"
+                  target="_blank"
+                  class="social-link"
+                >
+                  <i class="ri-github-line"></i>
+                </a>
+                <a href="#" target="_blank" class="social-link">
+                  <i class="ri-linkedin-line"></i>
+                </a>
+                <a href="#" target="_blank" class="social-link">
+                  <i class="ri-twitter-line"></i>
+                </a>
+              </div>
+            </div>
+
+            <div class="contact-form">
+              <form
+                id="contactForm"
+                action="mailto:sumedhwature2001@gmail.com"
+                method="POST"
+                enctype="text/plain"
+              >
+                <div class="form-group">
+                  <input type="text" id="name" name="name" required />
+                  <label for="name">Your Name</label>
+                </div>
+
+                <div class="form-group">
+                  <input type="email" id="email" name="email" required />
+                  <label for="email">Your Email</label>
+                </div>
+
+                <div class="form-group">
+                  <input type="text" id="subject" name="subject" required />
+                  <label for="subject">Subject</label>
+                </div>
+
+                <div class="form-group">
+                  <textarea
+                    id="message"
+                    name="message"
+                    rows="5"
+                    required
+                  ></textarea>
+                  <label for="message">Your Message</label>
+                </div>
+
+                <button type="submit" class="submit-btn">
+                  <span class="btn-text">Send Message</span>
+                  <i class="ri-send-plane-line"></i>
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Footer -->
+      <footer class="footer">
+        <div class="container">
+          <div class="footer-content">
+            <p>&copy; 2025 Sumedh Wature. All rights reserved.</p>
+            <p>Built with passion using GSAP and modern web technologies.</p>
+          </div>
+        </div>
+      </footer>
     </div>
 
     <!-- Scripts -->
@@ -498,6 +551,5 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/TextPlugin.min.js"></script>
     <script src="js/script.js"></script>
-</body>
+  </body>
 </html>
-

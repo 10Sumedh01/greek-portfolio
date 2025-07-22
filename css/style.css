@@ -404,13 +404,19 @@ Navigation
   overflow: hidden;
   width: 100%;
 }
+.hero-roles-text {
+  font-family: var(--font-display);
+  font-size: 2rem;
+  color: var(--primary-color);
+  margin-bottom: 1rem;
+}
 
 .role {
   position: absolute;
   top: 0;
   left: 50%;
   transform: translateX(-50%);
-  font-size: 1.5rem;
+  font-size: 2rem;
   color: var(--secondary-color);
   opacity: 0;
   transition: all var(--transition-slow);
